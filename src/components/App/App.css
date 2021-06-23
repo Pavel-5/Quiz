@@ -1,0 +1,218 @@
+.app {
+	min-width: 320px;
+}
+
+@media only screen and (max-width: 899.9px) {
+  .header {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 55px;
+    line-height: 55px;
+  }
+
+  .choice {
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .label {
+    font-size: 18px;
+  }
+
+  .category {
+    width: 270px;
+  }
+
+  .button {
+    font-size: 20px;
+  }
+
+	.questions {
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top: 40px;
+	}
+
+	.params {
+		font-size: 15px;
+	}
+
+	.topic {
+		font-size: 25px;
+		margin-top: 40px;
+	}
+	
+	.noAnswer {
+		font-size: 15px;
+	}
+
+	.next-question {
+		margin-top: 30px;
+		margin-bottom: 40px;
+		font-size: 20px;
+	}
+
+  .loading {
+    font-size: 40px;
+    padding-top: 40px;
+  }
+
+  .messageError {
+    font-size: 25px;
+    padding-top: 40px;
+  }
+
+  .back {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+  }
+
+	.answers {
+		margin-top: 40px;
+	}
+	
+	.answer {
+		height: 40px;
+		font-size: 16px;
+	}
+
+	.total {
+		font-size: 40px;
+	}
+
+	.difficult__title {
+		font-size: 15px;
+	}
+
+	.difficult__question {
+		font-size: 15px;
+	}
+
+	.text {
+		font-size: 12px;
+	}
+
+	.text__label {
+		margin-top: 10px;
+		font-weight: bold;
+	}
+
+	.results__list {
+		padding: 0 0 0 20px;
+		margin: 10px 0 0;
+	}	
+}
+
+@media only screen and (max-width: 499.9px) {
+	.title {
+		font-size: 45px;
+    line-height: 45px;
+	}
+
+	.choice {
+    margin-top: 40px;
+  }
+
+  .label {
+    font-size: 15px;
+  }
+
+	.count {
+		width: 25px;
+    height: 20px;
+    font-size: 12px;
+	}
+
+  .category {
+    width: 150px;
+		font-size: 12px;
+  }
+
+  .button {
+    font-size: 18px;
+  }
+
+	.questions {
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 40px;
+	}
+
+	.params {
+		font-size: 15px;
+	}
+
+	.topic {
+		font-size: 20px;
+		margin-top: 40px;
+	}
+	
+	.noAnswer {
+		font-size: 15px;
+	}
+
+	.next-question {
+		font-size: 18px;
+	}
+
+  .loading {
+    font-size: 30px;
+  }
+
+  .messageError {
+    font-size: 20px;
+  }
+
+  .back {
+    width: 15px;
+    height: 15px;
+    padding: 12px;
+  }
+
+	.answers {
+		margin-top: 25px;
+	}
+	
+	.answer {
+		height: 30px;
+		font-size: 14px;
+	}
+
+	.results__title {
+		font-size: 20px;
+	}
+
+	.total {
+		font-size: 30px;
+	}
+
+	.results__answers {
+		flex-direction: column;
+		align-items: center;
+		gap: 40px;
+	}
+
+	.difficult {
+		width: 100%;
+	}
+
+	.difficult__title {
+		font-size: 18px;
+	}
+
+	.difficult__main {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.difficult__question {
+		font-size: 15px;
+		margin-top: 20px;
+	}
+}

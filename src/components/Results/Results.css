@@ -1,0 +1,49 @@
+.results {
+	text-align: center;
+}
+
+.total {
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+}
+
+.results__answers {
+	display: flex;
+	justify-content: space-between;
+}
+
+.difficult {
+	width: 30%;
+}
+
+.difficult__title {
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.difficult__question {
+	font-size: 20px;
+	margin: 40px 0 0;
+}
+
+.text {
+	width: 100%;
+	text-align: left;
+	margin: 0;
+}
+
+.text__label {
+	margin: 20px 0 0;
+	font-weight: bold;
+}
+
+.results__list {
+	padding: 0 0 0 20px;
+	margin: 20px 0 0;
+}
+
+.on-main {
+	margin: 50px 0;
+}

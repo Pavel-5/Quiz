@@ -1,0 +1,11 @@
+.answers {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.answer {
+	height: 50px;
+	text-align: left;
+	font-size: 20px;
+}
